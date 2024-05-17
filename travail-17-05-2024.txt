@@ -1,0 +1,1686 @@
+ubuntu@ibrah:~$ sudo apt-get install git curl docker-compose -y
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package docker-compose
+ubuntu@ibrah:~$ sudo curl -L "https://github.com/docker/compose/releases/download/v2.17.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 51.9M  100 51.9M    0     0  8140k      0  0:00:06  0:00:06 --:--:-- 11.2M
+ubuntu@ibrah:~$ sudo apt-get install git curl docker-compose -y
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package docker-compose
+ubuntu@ibrah:~$ sudo apt-get update
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [109 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+Get:6 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1467 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
+Get:8 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [252 kB]
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [1866 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1678 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [311 kB]
+Get:16 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [317 kB]
+Get:17 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [852 kB]
+Get:18 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [164 kB]
+Get:19 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [16.8 kB]
+Get:20 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [37.2 kB]
+Get:21 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [7588 B]
+Get:22 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [260 B]
+Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [1923 kB]
+Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [327 kB]
+Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1074 kB]
+Get:26 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [246 kB]
+Get:27 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [22.1 kB]
+Get:28 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [42.7 kB]
+Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [10.4 kB]
+Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [472 B]
+Get:31 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [67.1 kB]
+Get:32 http://archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11.0 kB]
+Get:33 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [388 B]
+Get:34 http://archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:35 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [27.2 kB]
+Get:36 http://archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.2 kB]
+Get:37 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [644 B]
+Get:38 http://archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
+Fetched 31.4 MB in 7s (4449 kB/s)
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+ca-certificates is already the newest version (20230311ubuntu0.22.04.1).
+ca-certificates set to manually installed.
+The following additional packages will be installed:
+  libcurl4 python3-software-properties
+The following NEW packages will be installed:
+  apt-transport-https
+The following packages will be upgraded:
+  curl libcurl4 python3-software-properties software-properties-common
+4 upgraded, 1 newly installed, 0 to remove and 99 not upgraded.
+Need to get 528 kB of archives.
+After this operation, 170 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 apt-transport-https all 2.4.12 [1510 B]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 curl amd64 7.81.0-1ubuntu1.16 [194 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4 amd64 7.81.0-1ubuntu1.16 [290 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 software-properties-common all 0.99.22.9 [14.1 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-software-properties all 0.99.22.9 [28.8 kB]
+Fetched 528 kB in 1s (552 kB/s)
+Selecting previously unselected package apt-transport-https.
+(Reading database ... 24208 files and directories currently installed.)
+Preparing to unpack .../apt-transport-https_2.4.12_all.deb ...
+Unpacking apt-transport-https (2.4.12) ...
+Preparing to unpack .../curl_7.81.0-1ubuntu1.16_amd64.deb ...
+Unpacking curl (7.81.0-1ubuntu1.16) over (7.81.0-1ubuntu1.14) ...
+Preparing to unpack .../libcurl4_7.81.0-1ubuntu1.16_amd64.deb ...
+Unpacking libcurl4:amd64 (7.81.0-1ubuntu1.16) over (7.81.0-1ubuntu1.14) ...
+Preparing to unpack .../software-properties-common_0.99.22.9_all.deb ...
+Unpacking software-properties-common (0.99.22.9) over (0.99.22.8) ...
+Preparing to unpack .../python3-software-properties_0.99.22.9_all.deb ...
+Unpacking python3-software-properties (0.99.22.9) over (0.99.22.8) ...
+Setting up apt-transport-https (2.4.12) ...
+Setting up python3-software-properties (0.99.22.9) ...
+Setting up libcurl4:amd64 (7.81.0-1ubuntu1.16) ...
+Setting up curl (7.81.0-1ubuntu1.16) ...
+Setting up software-properties-common (0.99.22.9) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.4) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for dbus (1.12.20-2ubuntu4.1) ...
+ubuntu@ibrah:~$
+ubuntu@ibrah:~$
+ubuntu@ibrah:~$
+ubuntu@ibrah:~$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+ubuntu@ibrah:~$ git clone https://github.com/hyperledger/fabric-samples.git
+Cloning into 'fabric-samples'...
+remote: Enumerating objects: 13369, done.
+remote: Counting objects: 100% (252/252), done.
+remote: Compressing objects: 100% (161/161), done.
+remote: Total 13369 (delta 88), reused 195 (delta 69), pack-reused 13117
+Receiving objects: 100% (13369/13369), 22.90 MiB | 7.79 MiB/s, done.
+Resolving deltas: 100% (7330/7330), done.
+ubuntu@ibrah:~$ ls
+fabric-samples
+ubuntu@ibrah:~$ cd fabric-samples/
+ubuntu@ibrah:~/fabric-samples$ ls
+CHANGELOG.md        README.md                      asset-transfer-private-data       full-stack-asset-transfer-guide  test-network-k8s        token-utxo
+CODEOWNERS          SECURITY.md                    asset-transfer-sbe                hardware-security-module         test-network-nano-bash
+CODE_OF_CONDUCT.md  asset-transfer-abac            asset-transfer-secured-agreement  high-throughput                  token-erc-1155
+CONTRIBUTING.md     asset-transfer-basic           auction-dutch                     off_chain_data                   token-erc-20
+LICENSE             asset-transfer-events          auction-simple                    test-application                 token-erc-721
+MAINTAINERS.md      asset-transfer-ledger-queries  ci                                test-network                     token-sdk
+ubuntu@ibrah:~/fabric-samples$
+ubuntu@ibrah:~/fabric-samples$ cd ..
+ubuntu@ibrah:~$ mkdir -p $HOME/go/src/github.com/ibrahimadiagneseck
+ubuntu@ibrah:~$ ls
+fabric-samples  go
+ubuntu@ibrah:~$ cd \$HOME/go/src/github.com/ibrahimadiagneseck/
+-bash: cd: $HOME/go/src/github.com/ibrahimadiagneseck/: No such file or directory
+ubuntu@ibrah:~$ cd \$HOME/go/src/github.com/ibrahimadiagneseck
+-bash: cd: $HOME/go/src/github.com/ibrahimadiagneseck: No such file or directory
+ubuntu@ibrah:~$ cd $HOME/go/src/github.com/ibrahimadiagneseck/
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck$ curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh && chmod +x install-fabric.sh
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck$ ls
+install-fabric.sh
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck$ ./install-fabric.sh -h
+Usage: ./install-fabric.sh [-f|--fabric-version <arg>] [-c|--ca-version <arg>] <comp-1> [<comp-2>] ... [<comp-n>] ...
+        <comp>: Component to install one or more of  d[ocker]|b[inary]|s[amples]. If none specified, all will be installed
+        -f, --fabric-version: FabricVersion (default: '2.5.7')
+        -c, --ca-version: Fabric CA Version (default: '1.5.10')
+Usage: ./install-fabric.sh [-f|--fabric-version <arg>] [-c|--ca-version <arg>] <comp-1> [<comp-2>] ... [<comp-n>] ...
+        <comp> Component to install, one or more of  docker | binary | samples | podman  First letter of component also accepted; If none specified docker | binary | samples is assumed
+        -f, --fabric-version: FabricVersion (default: '2.5.7')
+        -c, --ca-version: Fabric CA Version (default: '1.5.10')
+-bash: arg: No such file or directory
+-bash: arg: No such file or directory
+Usage:: command not found
+-bash: comp: No such file or directory
+b[inary]: command not found
+s[amples].: command not found
+-bash: syntax error near unexpected token `('
+-bash: syntax error near unexpected token `('
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck$ ./install-fabric.sh -h
+Usage: ./install-fabric.sh [-f|--fabric-version <arg>] [-c|--ca-version <arg>] <comp-1> [<comp-2>] ... [<comp-n>] ...
+        <comp> Component to install, one or more of  docker | binary | samples | podman  First letter of component also accepted; If none specified docker | binary | samples is assumed
+        -f, --fabric-version: FabricVersion (default: '2.5.7')
+        -c, --ca-version: Fabric CA Version (default: '1.5.10')
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck$
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck$ ./install-fabric.sh docker samples binary
+
+Clone hyperledger/fabric-samples repo
+
+===> Cloning hyperledger/fabric-samples repo
+Cloning into 'fabric-samples'...
+remote: Enumerating objects: 13369, done.
+remote: Counting objects: 100% (252/252), done.
+remote: Compressing objects: 100% (161/161), done.
+remote: Total 13369 (delta 88), reused 195 (delta 69), pack-reused 13117
+Receiving objects: 100% (13369/13369), 22.90 MiB | 6.15 MiB/s, done.
+Resolving deltas: 100% (7330/7330), done.
+fabric-samples v2.5.7 does not exist, defaulting to main. fabric-samples main branch is intended to work with recent versions of fabric.
+
+Pull Hyperledger Fabric binaries
+
+===> Downloading version 2.5.7 platform specific fabric binaries
+===> Downloading:  https://github.com/hyperledger/fabric/releases/download/v2.5.7/hyperledger-fabric-linux-amd64-2.5.7.tar.gz
+===> Will unpack to: /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  109M  100  109M    0     0  9711k      0  0:00:11  0:00:11 --:--:-- 11.1M
+==> Done.
+===> Downloading version 1.5.10 platform specific fabric-ca-client binary
+===> Downloading:  https://github.com/hyperledger/fabric-ca/releases/download/v1.5.10/hyperledger-fabric-ca-linux-amd64-1.5.10.tar.gz
+===> Will unpack to: /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 28.6M  100 28.6M    0     0  6628k      0  0:00:04  0:00:04 --:--:--  9.9M
+==> Done.
+
+Pull Hyperledger Fabric docker images
+
+FABRIC_IMAGES: peer orderer ccenv baseos
+===> Pulling fabric Images
+====>  docker.io/hyperledger/fabric-peer:2.5.7
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+====>  docker.io/hyperledger/fabric-orderer:2.5.7
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+====>  docker.io/hyperledger/fabric-ccenv:2.5.7
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+====>  docker.io/hyperledger/fabric-baseos:2.5.7
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+===> Pulling fabric ca Image
+====>  docker.io/hyperledger/fabric-ca:1.5.10
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+===> List out hyperledger images
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck$ ./install-fabric.sh --fabric-version 2.5.7 binary
+
+Pull Hyperledger Fabric binaries
+
+===> Downloading version 2.5.7 platform specific fabric binaries
+===> Downloading:  https://github.com/hyperledger/fabric/releases/download/v2.5.7/hyperledger-fabric-linux-amd64-2.5.7.tar.gz
+===> Will unpack to: fabric-samples
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  109M  100  109M    0     0  9902k      0  0:00:11  0:00:11 --:--:-- 11.3M
+==> Done.
+===> Downloading version 1.5.10 platform specific fabric-ca-client binary
+===> Downloading:  https://github.com/hyperledger/fabric-ca/releases/download/v1.5.10/hyperledger-fabric-ca-linux-amd64-1.5.10.tar.gz
+===> Will unpack to: fabric-samples
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 28.6M  100 28.6M    0     0  7148k      0  0:00:04  0:00:04 --:--:-- 8699k
+==> Done.
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck$
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck$ cd fabric-samples/test-network
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ ls
+CHAINCODE_AS_A_SERVICE_TUTORIAL.md  addOrg3     compose   monitordocker.sh  network.sh     prometheus-grafana  setOrgEnv.sh
+README.md                           bft-config  configtx  network.config    organizations  scripts             system-genesis-block
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ ./network.sh down
+Using docker and docker-compose
+Stopping network
+
+The command 'docker-compose' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+Removing remaining containers
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+Removing generated chaincode docker images
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ ./network.sh up
+Using docker and docker-compose
+Starting nodes with CLI timeout of '5' tries and CLI delay of '3' seconds and using database 'leveldb' with crypto from 'cryptogen'
+LOCAL_VERSION=v2.5.7
+DOCKER_IMAGE_VERSION=
+Local fabric binaries and docker images are out of  sync. This may cause problems.
+/home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/../bin/cryptogen
+Generating certificates using cryptogen tool
+Creating Org1 Identities
++ cryptogen generate --config=./organizations/cryptogen/crypto-config-org1.yaml --output=organizations
+org1.example.com
++ res=0
+Creating Org2 Identities
++ cryptogen generate --config=./organizations/cryptogen/crypto-config-org2.yaml --output=organizations
+org2.example.com
++ res=0
+Creating Orderer Org Identities
++ cryptogen generate --config=./organizations/cryptogen/crypto-config-orderer.yaml --output=organizations
++ res=0
+Generating CCP files for Org1 and Org2
+
+The command 'docker-compose' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+Unable to start network
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ ./network.sh up
+Using docker and docker-compose
+Starting nodes with CLI timeout of '5' tries and CLI delay of '3' seconds and using database 'leveldb'
+LOCAL_VERSION=v2.5.7
+DOCKER_IMAGE_VERSION=
+Local fabric binaries and docker images are out of  sync. This may cause problems.
+
+The command 'docker-compose' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+Unable to start network
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ docker
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ docker --version
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ docker
+docker                            docker-credential-desktop.exe     docker-index.exe
+docker-compose                    docker-credential-ecr-login.exe   docker-machine-driver-vmware.exe
+docker-compose.exe                docker-credential-wincred.exe     docker.exe
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ ./network.sh up
+Using docker and docker-compose
+Starting nodes with CLI timeout of '5' tries and CLI delay of '3' seconds and using database 'leveldb'
+LOCAL_VERSION=v2.5.7
+DOCKER_IMAGE_VERSION=
+Local fabric binaries and docker images are out of  sync. This may cause problems.
+
+The command 'docker-compose' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+Unable to start network
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ docker --version
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ ./network.sh up
+Using docker and docker-compose
+Starting nodes with CLI timeout of '5' tries and CLI delay of '3' seconds and using database 'leveldb'
+docker: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/create": dial unix /var/run/docker.sock: connect: permission denied.
+See 'docker run --help'.
+LOCAL_VERSION=v2.5.7
+DOCKER_IMAGE_VERSION=
+Local fabric binaries and docker images are out of  sync. This may cause problems.
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Dcompose%22%3Atrue%7D%7D": dial unix /var/run/docker.sock: connect: permission denied
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json?all=1": dial unix /var/run/docker.sock: connect: permission denied
+Unable to start network
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ su
+Password:
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo ./network.sh up
+[sudo] password for ubuntu:
+Using docker and docker-compose
+Starting nodes with CLI timeout of '5' tries and CLI delay of '3' seconds and using database 'leveldb'
+Unable to find image 'hyperledger/fabric-peer:latest' locally
+latest: Pulling from hyperledger/fabric-peer
+17d0386c2fff: Pull complete
+411f949d2631: Pull complete
+60477c51ae49: Pull complete
+41f030a0db76: Pull complete
+4b3da0f2f587: Pull complete
+5bde8943d0ff: Pull complete
+Digest: sha256:a3dad3b96a1593a150f11124e8a2bcae13fe80e080733442a87735a0709a74e5
+Status: Downloaded newer image for hyperledger/fabric-peer:latest
+LOCAL_VERSION=v2.5.7
+DOCKER_IMAGE_VERSION=v2.5.7
+[+] Running 7/7
+ ✔ orderer.example.com 6 layers [⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                                                                                        7.1s
+   ✔ 17d0386c2fff Already exists                                                                                                                       0.0s
+   ✔ c599b25cda22 Pull complete                                                                                                                        0.6s
+   ✔ c3d079db3fa8 Pull complete                                                                                                                        2.3s
+   ✔ 44b4e555bbda Pull complete                                                                                                                        0.6s
+   ✔ 145d0404f6b8 Pull complete                                                                                                                        2.4s
+   ✔ 7e1ef4cce541 Pull complete                                                                                                                        2.3s
+[+] Running 3/7
+ ⠋ Network fabric_test                      Created                                                                                                    6.0s
+ ⠦ Volume "compose_orderer.example.com"     Created                                                                                                    5.6s
+ ⠴ Volume "compose_peer0.org1.example.com"  Created                                                                                                    5.5s
+ ⠸ Volume "compose_peer0.org2.example.com"  Created                                                                                                    5.3s
+ ✔ Container peer0.org1.example.com         Started                                                                                                    5.0s
+ ✔ Container orderer.example.com            Started                                                                                                    5.3s
+ ✔ Container peer0.org2.example.com         Started                                                                                                    5.3s
+CONTAINER ID   IMAGE                               COMMAND                  CREATED         STATUS                     PORTS
+                                    NAMES
+21f3c567b055   hyperledger/fabric-peer:latest      "peer node start"        5 seconds ago   Up Less than a second      0.0.0.0:7051->7051/tcp, 0.0.0.0:9444->9444/tcp                           peer0.org1.example.com
+22ac93aed097   hyperledger/fabric-peer:latest      "peer node start"        5 seconds ago   Up Less than a second      0.0.0.0:9051->9051/tcp, 7051/tcp, 0.0.0.0:9445->9445/tcp                 peer0.org2.example.com
+65f829267a77   hyperledger/fabric-orderer:latest   "orderer"                5 seconds ago   Up Less than a second      0.0.0.0:7050->7050/tcp, 0.0.0.0:7053->7053/tcp, 0.0.0.0:9443->9443/tcp   orderer.example.com
+a4e77293f010   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago
+                                    hadoop-slave2
+bb60532bb371   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago
+                                    hadoop-slave1
+0fbfe4b15176   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago
+                                    hadoop-master
+fefa6adaedb7   postgres:latest                     "docker-entrypoint.s…"   7 weeks ago     Exited (0) 7 minutes ago
+                                    postgres_container
+a2acc589e904   adminer                             "entrypoint.sh php -…"   7 weeks ago     Exited (0) 7 minutes ago
+                                    docker-adminer-1
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ ./network.sh Org1
+Using docker and docker-compose
+Usage:
+  network.sh <Mode> [Flags]
+    Modes:
+      prereq - Install Fabric binaries and docker images
+      up - Bring up Fabric orderer and peer nodes. No channel is created
+      up createChannel - Bring up fabric network with one channel
+      createChannel - Create and join a channel after the network is created
+      deployCC - Deploy a chaincode to a channel (defaults to asset-transfer-basic)
+      cc - chaincode functions, use "network.sh cc -h" for options
+      down - Bring down the network
+
+    Flags:
+    Used with network.sh prereq
+    -i     FabricVersion (default: '2.5.4')
+    -cai   Fabric CA Version (default: '1.5.7')
+
+    Used with network.sh up, network.sh createChannel:
+    -ca - Use Certificate Authorities to generate network crypto material
+    -cfssl <use CFSSL> -  Use CFSSL CA to generate network crypto material
+    -bft - Use Orderers with consensus type BFT (Not available in Fabric v2.x)
+    -c <channel name> - Name of channel to create (defaults to "mychannel")
+    -s <dbtype> - Peer state database to deploy: goleveldb (default) or couchdb
+    -r <max retry> - CLI times out after certain number of attempts (defaults to 5)
+    -d <delay> - CLI delays for a certain number of seconds (defaults to 3)
+    -verbose - Verbose mode
+
+    Used with network.sh deployCC:
+    -c <channel name> - Name of channel to deploy chaincode to
+    -ccn <name> - Chaincode name.
+    -ccl <language> - Programming language of the chaincode to deploy: go, java, javascript, typescript
+    -ccv <version>  - Chaincode version. 1.0 (default), v2, version3.x, etc
+    -ccs <sequence>  - Chaincode definition sequence.  Must be auto (default) or an integer, 1 , 2, 3, etc
+    -ccp <path>  - File path to the chaincode.
+    -ccep <policy>  - (Optional) Chaincode endorsement policy using signature policy syntax. The default policy requires an endorsement from Org1 and Org2
+    -cccg <collection-config>  - (Optional) File path to private data collections configuration file
+    -cci <fcn name>  - (Optional) Name of chaincode initialization function. When a function is provided, the execution of init will be requested and the function will be invoked.
+
+    -h - Print this message
+
+ Possible Mode and flag combinations
+   up -ca -r -d -s -verbose
+   up -bft -r -d -s -verbose
+   up createChannel -ca -c -r -d -s -verbose
+   up createChannel -bft -c -r -d -s -verbose
+   createChannel -bft -c -r -d -verbose
+   deployCC -ccn -ccl -ccv -ccs -ccp -cci -r -d -verbose
+
+ Examples:
+   network.sh up createChannel -ca -c mychannel -s couchdb
+   network.sh createChannel -c channelName
+   network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript
+   network.sh deployCC -ccn mychaincode -ccp ./user/mychaincode -ccv 1 -ccl javascript
+
+ NOTE: Default settings can be changed in network.config
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ ./network.sh Org2
+Using docker and docker-compose
+Usage:
+  network.sh <Mode> [Flags]
+    Modes:
+      prereq - Install Fabric binaries and docker images
+      up - Bring up Fabric orderer and peer nodes. No channel is created
+      up createChannel - Bring up fabric network with one channel
+      createChannel - Create and join a channel after the network is created
+      deployCC - Deploy a chaincode to a channel (defaults to asset-transfer-basic)
+      cc - chaincode functions, use "network.sh cc -h" for options
+      down - Bring down the network
+
+    Flags:
+    Used with network.sh prereq
+    -i     FabricVersion (default: '2.5.4')
+    -cai   Fabric CA Version (default: '1.5.7')
+
+    Used with network.sh up, network.sh createChannel:
+    -ca - Use Certificate Authorities to generate network crypto material
+    -cfssl <use CFSSL> -  Use CFSSL CA to generate network crypto material
+    -bft - Use Orderers with consensus type BFT (Not available in Fabric v2.x)
+    -c <channel name> - Name of channel to create (defaults to "mychannel")
+    -s <dbtype> - Peer state database to deploy: goleveldb (default) or couchdb
+    -r <max retry> - CLI times out after certain number of attempts (defaults to 5)
+    -d <delay> - CLI delays for a certain number of seconds (defaults to 3)
+    -verbose - Verbose mode
+
+    Used with network.sh deployCC:
+    -c <channel name> - Name of channel to deploy chaincode to
+    -ccn <name> - Chaincode name.
+    -ccl <language> - Programming language of the chaincode to deploy: go, java, javascript, typescript
+    -ccv <version>  - Chaincode version. 1.0 (default), v2, version3.x, etc
+    -ccs <sequence>  - Chaincode definition sequence.  Must be auto (default) or an integer, 1 , 2, 3, etc
+    -ccp <path>  - File path to the chaincode.
+    -ccep <policy>  - (Optional) Chaincode endorsement policy using signature policy syntax. The default policy requires an endorsement from Org1 and Org2
+    -cccg <collection-config>  - (Optional) File path to private data collections configuration file
+    -cci <fcn name>  - (Optional) Name of chaincode initialization function. When a function is provided, the execution of init will be requested and the function will be invoked.
+
+    -h - Print this message
+
+ Possible Mode and flag combinations
+   up -ca -r -d -s -verbose
+   up -bft -r -d -s -verbose
+   up createChannel -ca -c -r -d -s -verbose
+   up createChannel -bft -c -r -d -s -verbose
+   createChannel -bft -c -r -d -verbose
+   deployCC -ccn -ccl -ccv -ccs -ccp -cci -r -d -verbose
+
+ Examples:
+   network.sh up createChannel -ca -c mychannel -s couchdb
+   network.sh createChannel -c channelName
+   network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript
+   network.sh deployCC -ccn mychaincode -ccp ./user/mychaincode -ccv 1 -ccl javascript
+
+ NOTE: Default settings can be changed in network.config
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ ./network.sh createChannel
+Using docker and docker-compose
+Creating channel 'mychannel'.
+If network is not up, starting nodes with CLI timeout of '5' tries and CLI delay of '3' seconds and using database 'leveldb
+docker network is required to be running to create a channel
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo ./network.sh createChannel
+Using docker and docker-compose
+Creating channel 'mychannel'.
+If network is not up, starting nodes with CLI timeout of '5' tries and CLI delay of '3' seconds and using database 'leveldb
+Bringing up network
+LOCAL_VERSION=v2.5.7
+DOCKER_IMAGE_VERSION=v2.5.7
+[+] Running 3/0
+ ✔ Container orderer.example.com     Running                                                                                                           0.0s
+ ✔ Container peer0.org1.example.com  Running                                                                                                           0.0s
+ ✔ Container peer0.org2.example.com  Running                                                                                                           0.0s
+CONTAINER ID   IMAGE                               COMMAND                  CREATED         STATUS                      PORTS                                                                    NAMES
+21f3c567b055   hyperledger/fabric-peer:latest      "peer node start"        4 minutes ago   Up 4 minutes                0.0.0.0:7051->7051/tcp, 0.0.0.0:9444->9444/tcp                           peer0.org1.example.com
+22ac93aed097   hyperledger/fabric-peer:latest      "peer node start"        4 minutes ago   Up 4 minutes                0.0.0.0:9051->9051/tcp, 7051/tcp, 0.0.0.0:9445->9445/tcp                 peer0.org2.example.com
+65f829267a77   hyperledger/fabric-orderer:latest   "orderer"                4 minutes ago   Up 4 minutes                0.0.0.0:7050->7050/tcp, 0.0.0.0:7053->7053/tcp, 0.0.0.0:9443->9443/tcp   orderer.example.com
+a4e77293f010   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago                                                                             hadoop-slave2
+bb60532bb371   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago                                                                             hadoop-slave1
+0fbfe4b15176   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago                                                                             hadoop-master
+fefa6adaedb7   postgres:latest                     "docker-entrypoint.s…"   7 weeks ago     Exited (0) 12 minutes ago                                                                            postgres_container
+a2acc589e904   adminer                             "entrypoint.sh php -…"   7 weeks ago     Exited (0) 12 minutes ago                                                                            docker-adminer-1
+Using docker and docker-compose
+Generating channel genesis block 'mychannel.block'
+Using organization 1
+/home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/../bin/configtxgen
++ '[' 0 -eq 1 ']'
++ configtxgen -profile ChannelUsingRaft -outputBlock ./channel-artifacts/mychannel.block -channelID mychannel
+2024-05-17 16:04:28.496 GMT 0001 INFO [common.tools.configtxgen] main -> Loading configuration
+2024-05-17 16:04:28.534 GMT 0002 INFO [common.tools.configtxgen.localconfig] completeInitialization -> orderer type: etcdraft
+2024-05-17 16:04:28.535 GMT 0003 INFO [common.tools.configtxgen.localconfig] completeInitialization -> Orderer.EtcdRaft.Options unset, setting to tick_interval:"500ms" election_tick:10 heartbeat_tick:1 max_inflight_blocks:5 snapshot_interval_size:16777216
+2024-05-17 16:04:28.535 GMT 0004 INFO [common.tools.configtxgen.localconfig] Load -> Loaded configuration: /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/configtx/configtx.yaml
+2024-05-17 16:04:28.555 GMT 0005 INFO [common.tools.configtxgen] doOutputBlock -> Generating genesis block
+2024-05-17 16:04:28.555 GMT 0006 INFO [common.tools.configtxgen] doOutputBlock -> Creating application channel genesis block
+2024-05-17 16:04:28.558 GMT 0007 INFO [common.tools.configtxgen] doOutputBlock -> Writing genesis block
++ res=0
+Creating channel mychannel
+Adding orderers
++ . scripts/orderer.sh mychannel
++ '[' 0 -eq 1 ']'
++ res=0
+Status: 201
+{
+        "name": "mychannel",
+        "url": "/participation/v1/channels/mychannel",
+        "consensusRelation": "consenter",
+        "status": "active",
+        "height": 1
+}
+
+Channel 'mychannel' created
+Joining org1 peer to the channel...
+Using organization 1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=0
+2024-05-17 16:04:34.995 GMT 0001 INFO [channelCmd] InitCmdFactory -> Endorser and orderer connections initialized
+2024-05-17 16:04:35.075 GMT 0002 INFO [channelCmd] executeJoin -> Successfully submitted proposal to join channel
+Joining org2 peer to the channel...
+Using organization 2
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=0
+2024-05-17 16:04:38.195 GMT 0001 INFO [channelCmd] InitCmdFactory -> Endorser and orderer connections initialized
+2024-05-17 16:04:38.257 GMT 0002 INFO [channelCmd] executeJoin -> Successfully submitted proposal to join channel
+Setting anchor peer for org1...
+Using organization 1
+Fetching channel config for channel mychannel
+Using organization 1
+Fetching the most recent configuration block for the channel
+++ peer channel fetch config /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/channel-artifacts/config_block.pb -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com -c mychannel --tls --cafile /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/organizations/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
+2024-05-17 16:04:38.389 GMT 0001 INFO [channelCmd] InitCmdFactory -> Endorser and orderer connections initialized
+2024-05-17 16:04:38.397 GMT 0002 INFO [cli.common] readBlock -> Received block: 0
+2024-05-17 16:04:38.398 GMT 0003 INFO [channelCmd] fetch -> Retrieving last config block: 0
+2024-05-17 16:04:38.405 GMT 0004 INFO [cli.common] readBlock -> Received block: 0
+Decoding config block to JSON and isolating config to /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/channel-artifacts/Org1MSPconfig.json
+++ configtxlator proto_decode --input /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/channel-artifacts/config_block.pb --type common.Block --output /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/channel-artifacts/config_block.json
+++ jq '.data.data[0].payload.data.config' /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/channel-artifacts/config_block.json
+/home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/scripts/configUpdate.sh: line 35: jq: command not found
+++ res=127
+Failed to parse channel configuration, make sure you have jq installed
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo apt-get install jq
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libjq1 libonig5
+The following NEW packages will be installed:
+  jq libjq1 libonig5
+0 upgraded, 3 newly installed, 0 to remove and 99 not upgraded.
+Need to get 357 kB of archives.
+After this operation, 1087 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 libonig5 amd64 6.9.7.1-2build1 [172 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjq1 amd64 1.6-2.1ubuntu3 [133 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy/main amd64 jq amd64 1.6-2.1ubuntu3 [52.5 kB]
+Fetched 357 kB in 1s (450 kB/s)
+Selecting previously unselected package libonig5:amd64.
+(Reading database ... 24212 files and directories currently installed.)
+Preparing to unpack .../libonig5_6.9.7.1-2build1_amd64.deb ...
+Unpacking libonig5:amd64 (6.9.7.1-2build1) ...
+Selecting previously unselected package libjq1:amd64.
+Preparing to unpack .../libjq1_1.6-2.1ubuntu3_amd64.deb ...
+Unpacking libjq1:amd64 (1.6-2.1ubuntu3) ...
+Selecting previously unselected package jq.
+Preparing to unpack .../jq_1.6-2.1ubuntu3_amd64.deb ...
+Unpacking jq (1.6-2.1ubuntu3) ...
+Setting up libonig5:amd64 (6.9.7.1-2build1) ...
+Setting up libjq1:amd64 (1.6-2.1ubuntu3) ...
+Setting up jq (1.6-2.1ubuntu3) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.4) ...
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo ./network.sh createChannel
+Using docker and docker-compose
+Creating channel 'mychannel'.
+If network is not up, starting nodes with CLI timeout of '5' tries and CLI delay of '3' seconds and using database 'leveldb
+Bringing up network
+LOCAL_VERSION=v2.5.7
+DOCKER_IMAGE_VERSION=v2.5.7
+[+] Running 3/0
+ ✔ Container orderer.example.com     Running                                                                                                           0.0s
+ ✔ Container peer0.org2.example.com  Running                                                                                                           0.0s
+ ✔ Container peer0.org1.example.com  Running                                                                                                           0.0s
+CONTAINER ID   IMAGE                               COMMAND                  CREATED         STATUS                      PORTS
+                                     NAMES
+21f3c567b055   hyperledger/fabric-peer:latest      "peer node start"        5 minutes ago   Up 5 minutes                0.0.0.0:7051->7051/tcp, 0.0.0.0:9444->9444/tcp                           peer0.org1.example.com
+22ac93aed097   hyperledger/fabric-peer:latest      "peer node start"        5 minutes ago   Up 5 minutes                0.0.0.0:9051->9051/tcp, 7051/tcp, 0.0.0.0:9445->9445/tcp                 peer0.org2.example.com
+65f829267a77   hyperledger/fabric-orderer:latest   "orderer"                5 minutes ago   Up 5 minutes                0.0.0.0:7050->7050/tcp, 0.0.0.0:7053->7053/tcp, 0.0.0.0:9443->9443/tcp   orderer.example.com
+a4e77293f010   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago
+                                     hadoop-slave2
+bb60532bb371   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago
+                                     hadoop-slave1
+0fbfe4b15176   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago
+                                     hadoop-master
+fefa6adaedb7   postgres:latest                     "docker-entrypoint.s…"   7 weeks ago     Exited (0) 13 minutes ago
+                                     postgres_container
+a2acc589e904   adminer                             "entrypoint.sh php -…"   7 weeks ago     Exited (0) 13 minutes ago
+                                     docker-adminer-1
+Using docker and docker-compose
+Generating channel genesis block 'mychannel.block'
+Using organization 1
+/home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/../bin/configtxgen
++ '[' 0 -eq 1 ']'
++ configtxgen -profile ChannelUsingRaft -outputBlock ./channel-artifacts/mychannel.block -channelID mychannel
+2024-05-17 16:05:54.472 GMT 0001 INFO [common.tools.configtxgen] main -> Loading configuration
+2024-05-17 16:05:54.485 GMT 0002 INFO [common.tools.configtxgen.localconfig] completeInitialization -> orderer type: etcdraft
+2024-05-17 16:05:54.486 GMT 0003 INFO [common.tools.configtxgen.localconfig] completeInitialization -> Orderer.EtcdRaft.Options unset, setting to tick_interval:"500ms" election_tick:10 heartbeat_tick:1 max_inflight_blocks:5 snapshot_interval_size:16777216
+2024-05-17 16:05:54.486 GMT 0004 INFO [common.tools.configtxgen.localconfig] Load -> Loaded configuration: /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/configtx/configtx.yaml
+2024-05-17 16:05:54.500 GMT 0005 INFO [common.tools.configtxgen] doOutputBlock -> Generating genesis block
+2024-05-17 16:05:54.500 GMT 0006 INFO [common.tools.configtxgen] doOutputBlock -> Creating application channel genesis block
+2024-05-17 16:05:54.504 GMT 0007 INFO [common.tools.configtxgen] doOutputBlock -> Writing genesis block
++ res=0
+Creating channel mychannel
+Adding orderers
++ . scripts/orderer.sh mychannel
++ '[' 0 -eq 1 ']'
++ res=0
+2024-05-17 16:04:38.195 GMT 0001 INFO [channelCmd] InitCmdFactory -> Endorser and orderer connections initialized
+2024-05-17 16:04:38.257 GMT 0002 INFO [channelCmd] executeJoin -> Successfully submitted proposal to join channel
+Status: 405
+{
+        "error": "cannot join: channel already exists"
+}
+
+Channel 'mychannel' created
+Joining org1 peer to the channel...
+Using organization 1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
+2024-05-17 16:06:10.061 GMT 0001 INFO [channelCmd] InitCmdFactory -> Endorser and orderer connections initialized
+Error: proposal failed (err: bad proposal response 500: cannot create ledger from genesis block: ledger [mychannel] already exists with state [ACTIVE])
+After 5 attempts, peer0.org1 has failed to join channel 'mychannel'
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-ABknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-ABknS] [-g group] [-h host] [-p prompt] [-U user] [-u user] [command]
+usage: sudo [-ABbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g group] [-h host] [-p prompt] [-R directory] [-T timeout] [-u user] [VAR=value]
+            [-i|-s] [<command>]
+usage: sudo -e [-ABknS] [-r role] [-t type] [-C num] [-D directory] [-g group] [-h host] [-p prompt] [-R directory] [-T timeout] [-u user] file ...
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sffffdd
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo ./network.sh createChannel
+Using docker and docker-compose
+Creating channel 'mychannel'.
+If network is not up, starting nodes with CLI timeout of '5' tries and CLI delay of '3' seconds and using database 'leveldb
+Bringing up network
+LOCAL_VERSION=v2.5.7
+DOCKER_IMAGE_VERSION=v2.5.7
+[+] Running 3/0
+ ✔ Container peer0.org2.example.com  Running                                                                                                           0.0s
+ ✔ Container orderer.example.com     Running                                                                                                           0.0s
+ ✔ Container peer0.org1.example.com  Running                                                                                                           0.0s
+CONTAINER ID   IMAGE                               COMMAND                  CREATED         STATUS                      PORTS                                                                    NAMES
+21f3c567b055   hyperledger/fabric-peer:latest      "peer node start"        7 minutes ago   Up 7 minutes                0.0.0.0:7051->7051/tcp, 0.0.0.0:9444->9444/tcp                           peer0.org1.example.com
+22ac93aed097   hyperledger/fabric-peer:latest      "peer node start"        7 minutes ago   Up 7 minutes                0.0.0.0:9051->9051/tcp, 7051/tcp, 0.0.0.0:9445->9445/tcp                 peer0.org2.example.com
+65f829267a77   hyperledger/fabric-orderer:latest   "orderer"                7 minutes ago   Up 7 minutes                0.0.0.0:7050->7050/tcp, 0.0.0.0:7053->7053/tcp, 0.0.0.0:9443->9443/tcp   orderer.example.com
+a4e77293f010   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago
+                                     hadoop-slave2
+bb60532bb371   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago                                                                             hadoop-slave1
+0fbfe4b15176   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago                                                                             hadoop-master
+fefa6adaedb7   postgres:latest                     "docker-entrypoint.s…"   7 weeks ago     Exited (0) 14 minutes ago                                                                            postgres_container
+a2acc589e904   adminer                             "entrypoint.sh php -…"   7 weeks ago     Exited (0) 14 minutes ago                                                                            docker-adminer-1
+Using docker and docker-compose
+Generating channel genesis block 'mychannel.block'
+Using organization 1
+/home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/../bin/configtxgen
++ '[' 0 -eq 1 ']'
++ configtxgen -profile ChannelUsingRaft -outputBlock ./channel-artifacts/mychannel.block -channelID mychannel
+2024-05-17 16:07:15.964 GMT 0001 INFO [common.tools.configtxgen] main -> Loading configuration
+2024-05-17 16:07:15.976 GMT 0002 INFO [common.tools.configtxgen.localconfig] completeInitialization -> orderer type: etcdraft
+2024-05-17 16:07:15.976 GMT 0003 INFO [common.tools.configtxgen.localconfig] completeInitialization -> Orderer.EtcdRaft.Options unset, setting to tick_interval:"500ms" election_tick:10 heartbeat_tick:1 max_inflight_blocks:5 snapshot_interval_size:16777216
+2024-05-17 16:07:15.977 GMT 0004 INFO [common.tools.configtxgen.localconfig] Load -> Loaded configuration: /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/configtx/configtx.yaml
+2024-05-17 16:07:15.985 GMT 0005 INFO [common.tools.configtxgen] doOutputBlock -> Generating genesis block
+2024-05-17 16:07:15.985 GMT 0006 INFO [common.tools.configtxgen] doOutputBlock -> Creating application channel genesis block
+2024-05-17 16:07:15.987 GMT 0007 INFO [common.tools.configtxgen] doOutputBlock -> Writing genesis block
++ res=0
+Creating channel mychannel
+Adding orderers
++ . scripts/orderer.sh mychannel
++ '[' 0 -eq 1 ']'
++ res=0
+2024-05-17 16:06:10.061 GMT 0001 INFO [channelCmd] InitCmdFactory -> Endorser and orderer connections initialized
+Error: proposal failed (err: bad proposal response 500: cannot create ledger from genesis block: ledger [mychannel] already exists with state [ACTIVE])
+Status: 405
+{
+        "error": "cannot join: channel already exists"
+}
+
+Channel 'mychannel' created
+Joining org1 peer to the channel...
+Using organization 1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
+2024-05-17 16:07:31.466 GMT 0001 INFO [channelCmd] InitCmdFactory -> Endorser and orderer connections initialized
+Error: proposal failed (err: bad proposal response 500: cannot create ledger from genesis block: ledger [mychannel] already exists with state [ACTIVE])
+After 5 attempts, peer0.org1 has failed to join channel 'mychannel'
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo ./network.sh Org1
+Using docker and docker-compose
+Usage:
+  network.sh <Mode> [Flags]
+    Modes:
+      prereq - Install Fabric binaries and docker images
+      up - Bring up Fabric orderer and peer nodes. No channel is created
+      up createChannel - Bring up fabric network with one channel
+      createChannel - Create and join a channel after the network is created
+      deployCC - Deploy a chaincode to a channel (defaults to asset-transfer-basic)
+      cc - chaincode functions, use "network.sh cc -h" for options
+      down - Bring down the network
+
+    Flags:
+    Used with network.sh prereq
+    -i     FabricVersion (default: '2.5.4')
+    -cai   Fabric CA Version (default: '1.5.7')
+
+    Used with network.sh up, network.sh createChannel:
+    -ca - Use Certificate Authorities to generate network crypto material
+    -cfssl <use CFSSL> -  Use CFSSL CA to generate network crypto material
+    -bft - Use Orderers with consensus type BFT (Not available in Fabric v2.x)
+    -c <channel name> - Name of channel to create (defaults to "mychannel")
+    -s <dbtype> - Peer state database to deploy: goleveldb (default) or couchdb
+    -r <max retry> - CLI times out after certain number of attempts (defaults to 5)
+    -d <delay> - CLI delays for a certain number of seconds (defaults to 3)
+    -verbose - Verbose mode
+
+    Used with network.sh deployCC:
+    -c <channel name> - Name of channel to deploy chaincode to
+    -ccn <name> - Chaincode name.
+    -ccl <language> - Programming language of the chaincode to deploy: go, java, javascript, typescript
+    -ccv <version>  - Chaincode version. 1.0 (default), v2, version3.x, etc
+    -ccs <sequence>  - Chaincode definition sequence.  Must be auto (default) or an integer, 1 , 2, 3, etc
+    -ccp <path>  - File path to the chaincode.
+    -ccep <policy>  - (Optional) Chaincode endorsement policy using signature policy syntax. The default policy requires an endorsement from Org1 and Org2
+    -cccg <collection-config>  - (Optional) File path to private data collections configuration file
+    -cci <fcn name>  - (Optional) Name of chaincode initialization function. When a function is provided, the execution of init will be requested and the function will be invoked.
+
+    -h - Print this message
+
+ Possible Mode and flag combinations
+   up -ca -r -d -s -verbose
+   up -bft -r -d -s -verbose
+   up createChannel -ca -c -r -d -s -verbose
+   up createChannel -bft -c -r -d -s -verbose
+   createChannel -bft -c -r -d -verbose
+   deployCC -ccn -ccl -ccv -ccs -ccp -cci -r -d -verbose
+
+ Examples:
+   network.sh up createChannel -ca -c mychannel -s couchdb
+   network.sh createChannel -c channelName
+   network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript
+   network.sh deployCC -ccn mychaincode -ccp ./user/mychaincode -ccv 1 -ccl javascript
+
+ NOTE: Default settings can be changed in network.config
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo Channel 'mychannel' joined
+sudo: Channel: command not found
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo Channel 'Org1' joined
+sudo: Channel: command not found
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo ./network.sh createChannel Org1
+Using docker and docker-compose
+Unknown flag: Org1
+Usage:
+  network.sh <Mode> [Flags]
+    Modes:
+      prereq - Install Fabric binaries and docker images
+      up - Bring up Fabric orderer and peer nodes. No channel is created
+      up createChannel - Bring up fabric network with one channel
+      createChannel - Create and join a channel after the network is created
+      deployCC - Deploy a chaincode to a channel (defaults to asset-transfer-basic)
+      cc - chaincode functions, use "network.sh cc -h" for options
+      down - Bring down the network
+
+    Flags:
+    Used with network.sh prereq
+    -i     FabricVersion (default: '2.5.4')
+    -cai   Fabric CA Version (default: '1.5.7')
+
+    Used with network.sh up, network.sh createChannel:
+    -ca - Use Certificate Authorities to generate network crypto material
+    -cfssl <use CFSSL> -  Use CFSSL CA to generate network crypto material
+    -bft - Use Orderers with consensus type BFT (Not available in Fabric v2.x)
+    -c <channel name> - Name of channel to create (defaults to "mychannel")
+    -s <dbtype> - Peer state database to deploy: goleveldb (default) or couchdb
+    -r <max retry> - CLI times out after certain number of attempts (defaults to 5)
+    -d <delay> - CLI delays for a certain number of seconds (defaults to 3)
+    -verbose - Verbose mode
+
+    Used with network.sh deployCC:
+    -c <channel name> - Name of channel to deploy chaincode to
+    -ccn <name> - Chaincode name.
+    -ccl <language> - Programming language of the chaincode to deploy: go, java, javascript, typescript
+    -ccv <version>  - Chaincode version. 1.0 (default), v2, version3.x, etc
+    -ccs <sequence>  - Chaincode definition sequence.  Must be auto (default) or an integer, 1 , 2, 3, etc
+    -ccp <path>  - File path to the chaincode.
+    -ccep <policy>  - (Optional) Chaincode endorsement policy using signature policy syntax. The default policy requires an endorsement from Org1 and Org2
+    -cccg <collection-config>  - (Optional) File path to private data collections configuration file
+    -cci <fcn name>  - (Optional) Name of chaincode initialization function. When a function is provided, the execution of init will be requested and the function will be invoked.
+
+    -h - Print this message
+
+ Possible Mode and flag combinations
+   up -ca -r -d -s -verbose
+   up -bft -r -d -s -verbose
+   up createChannel -ca -c -r -d -s -verbose
+   up createChannel -bft -c -r -d -s -verbose
+   createChannel -bft -c -r -d -verbose
+   deployCC -ccn -ccl -ccv -ccs -ccp -cci -r -d -verbose
+
+ Examples:
+   network.sh up createChannel -ca -c mychannel -s couchdb
+   network.sh createChannel -c channelName
+   network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript
+   network.sh deployCC -ccn mychaincode -ccp ./user/mychaincode -ccv 1 -ccl javascript
+
+ NOTE: Default settings can be changed in network.config
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo ./network.sh createChannel
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ sudo ./network.sh createChannel
+Using docker and docker-compose
+Creating channel 'mychannel'.
+If network is not up, starting nodes with CLI timeout of '5' tries and CLI delay of '3' seconds and using database 'leveldb
+Bringing up network
+LOCAL_VERSION=v2.5.7
+DOCKER_IMAGE_VERSION=v2.5.7
+[+] Running 3/0
+ ✔ Container orderer.example.com     Running                                                                                                           0.0s
+ ✔ Container peer0.org2.example.com  Running                                                                                                           0.0s
+ ✔ Container peer0.org1.example.com  Running                                                                                                           0.0s
+CONTAINER ID   IMAGE                               COMMAND                  CREATED         STATUS                      PORTS                                                                    NAMES
+21f3c567b055   hyperledger/fabric-peer:latest      "peer node start"        8 minutes ago   Up 8 minutes                0.0.0.0:7051->7051/tcp, 0.0.0.0:9444->9444/tcp                           peer0.org1.example.com
+22ac93aed097   hyperledger/fabric-peer:latest      "peer node start"        8 minutes ago   Up 8 minutes                0.0.0.0:9051->9051/tcp, 7051/tcp, 0.0.0.0:9445->9445/tcp                 peer0.org2.example.com
+65f829267a77   hyperledger/fabric-orderer:latest   "orderer"                8 minutes ago   Up 8 minutes                0.0.0.0:7050->7050/tcp, 0.0.0.0:7053->7053/tcp, 0.0.0.0:9443->9443/tcp   orderer.example.com
+a4e77293f010   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago                                                                             hadoop-slave2
+bb60532bb371   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago                                                                             hadoop-slave1
+0fbfe4b15176   liliasfaxi/spark-hadoop:hv-2.7.2    "sh -c 'service ssh …"   3 weeks ago     Exited (137) 2 weeks ago                                                                             hadoop-master
+fefa6adaedb7   postgres:latest                     "docker-entrypoint.s…"   7 weeks ago     Exited (0) 16 minutes ago                                                                            postgres_container
+a2acc589e904   adminer                             "entrypoint.sh php -…"   7 weeks ago     Exited (0) 16 minutes ago                                                                            docker-adminer-1
+Using docker and docker-compose
+Generating channel genesis block 'mychannel.block'
+Using organization 1
+/home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/../bin/configtxgen
++ '[' 0 -eq 1 ']'
++ configtxgen -profile ChannelUsingRaft -outputBlock ./channel-artifacts/mychannel.block -channelID mychannel
+2024-05-17 16:08:54.461 GMT 0001 INFO [common.tools.configtxgen] main -> Loading configuration
+2024-05-17 16:08:54.480 GMT 0002 INFO [common.tools.configtxgen.localconfig] completeInitialization -> orderer type: etcdraft
+2024-05-17 16:08:54.481 GMT 0003 INFO [common.tools.configtxgen.localconfig] completeInitialization -> Orderer.EtcdRaft.Options unset, setting to tick_interval:"500ms" election_tick:10 heartbeat_tick:1 max_inflight_blocks:5 snapshot_interval_size:16777216
+2024-05-17 16:08:54.481 GMT 0004 INFO [common.tools.configtxgen.localconfig] Load -> Loaded configuration: /home/ubuntu/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network/configtx/configtx.yaml
+2024-05-17 16:08:54.491 GMT 0005 INFO [common.tools.configtxgen] doOutputBlock -> Generating genesis block
+2024-05-17 16:08:54.491 GMT 0006 INFO [common.tools.configtxgen] doOutputBlock -> Creating application channel genesis block
+2024-05-17 16:08:54.498 GMT 0007 INFO [common.tools.configtxgen] doOutputBlock -> Writing genesis block
++ res=0
+Creating channel mychannel
+Adding orderers
++ . scripts/orderer.sh mychannel
++ '[' 0 -eq 1 ']'
++ res=0
+2024-05-17 16:07:31.466 GMT 0001 INFO [channelCmd] InitCmdFactory -> Endorser and orderer connections initialized
+Error: proposal failed (err: bad proposal response 500: cannot create ledger from genesis block: ledger [mychannel] already exists with state [ACTIVE])
+Status: 405
+{
+        "error": "cannot join: channel already exists"
+}
+
+Channel 'mychannel' created
+Joining org1 peer to the channel...
+Using organization 1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
++ peer channel join -b ./channel-artifacts/mychannel.block
++ res=1
+2024-05-17 16:09:09.990 GMT 0001 INFO [channelCmd] InitCmdFactory -> Endorser and orderer connections initialized
+Error: proposal failed (err: bad proposal response 500: cannot create ledger from genesis block: ledger [mychannel] already exists with state [ACTIVE])
+After 5 attempts, peer0.org1 has failed to join channel 'mychannel'
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ Channel 'mychannel' joined
+Channel: command not found
+ubuntu@ibrah:~/go/src/github.com/ibrahimadiagneseck/fabric-samples/test-network$ cd /home/ubuntu/
+ubuntu@ibrah:~$
+ubuntu@ibrah:~$
+ubuntu@ibrah:~$
+ubuntu@ibrah:~$
+ubuntu@ibrah:~$ wget https://dist.ipfs.io/go-ipfs/v0.4.13/go-ipfs_v0.4.13_linux-arm.tar.gz
+--2024-05-17 16:19:55--  https://dist.ipfs.io/go-ipfs/v0.4.13/go-ipfs_v0.4.13_linux-arm.tar.gz
+Resolving dist.ipfs.io (dist.ipfs.io)... 209.94.78.1, 2602:fea2:3::1
+Connecting to dist.ipfs.io (dist.ipfs.io)|209.94.78.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9925178 (9.5M) [application/gzip]
+Saving to: ‘go-ipfs_v0.4.13_linux-arm.tar.gz’
+
+go-ipfs_v0.4.13_linux-arm.tar.gz       100%[============================================================================>]   9.46M  4.37MB/s    in 2.2s
+
+2024-05-17 16:19:58 (4.37 MB/s) - ‘go-ipfs_v0.4.13_linux-arm.tar.gz’ saved [9925178/9925178]
+
+ubuntu@ibrah:~$ ls
+fabric-samples  go  go-ipfs_v0.4.13_linux-arm.tar.gz
+ubuntu@ibrah:~$ tar xvf go-ipfs_v0.4.13_linux-arm.tar.gz
+go-ipfs/build-log
+go-ipfs/install.sh
+go-ipfs/ipfs
+go-ipfs/LICENSE
+go-ipfs/README.md
+ubuntu@ibrah:~$ cd go-ipfs
+ubuntu@ibrah:~/go-ipfs$ sudo make install
+sudo: make: command not found
+ubuntu@ibrah:~/go-ipfs$ ls
+LICENSE  README.md  build-log  install.sh  ipfs
+ubuntu@ibrah:~/go-ipfs$ sudo make install.sh
+sudo: make: command not found
+ubuntu@ibrah:~/go-ipfs$ sudo make install
+sudo: make: command not found
+ubuntu@ibrah:~/go-ipfs$ sudo apt-get install build-essential
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  bzip2 cpp cpp-11 dpkg-dev fakeroot fontconfig-config fonts-dejavu-core g++ g++-11 gcc gcc-11 gcc-11-base libalgorithm-diff-perl
+  libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan6 libatomic1 libc-dev-bin libc-devtools libc6 libc6-dev libcc1-0 libcrypt-dev libdeflate0
+  libdpkg-perl libfakeroot libfile-fcntllock-perl libfontconfig1 libfreetype6 libgcc-11-dev libgd3 libgomp1 libisl23 libitm1 libjbig0 libjpeg-turbo8
+  libjpeg8 liblsan0 libmpc3 libnsl-dev libquadmath0 libstdc++-11-dev libtiff5 libtirpc-dev libtsan0 libubsan1 libwebp7 libxpm4 linux-libc-dev
+  lto-disabled-list make manpages-dev rpcsvc-proto
+Suggested packages:
+  bzip2-doc cpp-doc gcc-11-locales debian-keyring g++-multilib g++-11-multilib gcc-11-doc gcc-multilib autoconf automake libtool flex bison gdb gcc-doc
+  gcc-11-multilib glibc-doc bzr libgd-tools libstdc++-11-doc make-doc
+Recommended packages:
+  libnss-nis libnss-nisplus
+The following NEW packages will be installed:
+  build-essential bzip2 cpp cpp-11 dpkg-dev fakeroot fontconfig-config fonts-dejavu-core g++ g++-11 gcc gcc-11 gcc-11-base libalgorithm-diff-perl
+  libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan6 libatomic1 libc-dev-bin libc-devtools libc6-dev libcc1-0 libcrypt-dev libdeflate0
+  libdpkg-perl libfakeroot libfile-fcntllock-perl libfontconfig1 libfreetype6 libgcc-11-dev libgd3 libgomp1 libisl23 libitm1 libjbig0 libjpeg-turbo8
+  libjpeg8 liblsan0 libmpc3 libnsl-dev libquadmath0 libstdc++-11-dev libtiff5 libtirpc-dev libtsan0 libubsan1 libwebp7 libxpm4 linux-libc-dev
+  lto-disabled-list make manpages-dev rpcsvc-proto
+The following packages will be upgraded:
+  libc6
+1 upgraded, 53 newly installed, 0 to remove and 98 not upgraded.
+Need to get 67.4 MB of archives.
+After this operation, 208 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc6 amd64 2.35-0ubuntu3.7 [3235 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-dev-bin amd64 2.35-0ubuntu3.7 [20.3 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-libc-dev amd64 5.15.0-107.117 [1333 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy/main amd64 libcrypt-dev amd64 1:4.4.27-1 [112 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 rpcsvc-proto amd64 1.4.2-0ubuntu6 [68.5 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtirpc-dev amd64 1.3.2-2ubuntu0.1 [192 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnsl-dev amd64 1.3.0-2build2 [71.3 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc6-dev amd64 2.35-0ubuntu3.7 [2100 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11-base amd64 11.4.0-1ubuntu1~22.04 [20.2 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 libisl23 amd64 0.24-2build1 [727 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpc3 amd64 1.2.1-2build1 [46.9 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 cpp-11 amd64 11.4.0-1ubuntu1~22.04 [10.0 MB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy/main amd64 cpp amd64 4:11.2.0-1ubuntu1 [27.7 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcc1-0 amd64 12.3.0-1ubuntu1~22.04 [48.3 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgomp1 amd64 12.3.0-1ubuntu1~22.04 [126 kB]
+Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libitm1 amd64 12.3.0-1ubuntu1~22.04 [30.2 kB]
+Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libatomic1 amd64 12.3.0-1ubuntu1~22.04 [10.4 kB]
+Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libasan6 amd64 11.4.0-1ubuntu1~22.04 [2282 kB]
+Get:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 liblsan0 amd64 12.3.0-1ubuntu1~22.04 [1069 kB]
+Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtsan0 amd64 11.4.0-1ubuntu1~22.04 [2260 kB]
+Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libubsan1 amd64 12.3.0-1ubuntu1~22.04 [976 kB]
+Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libquadmath0 amd64 12.3.0-1ubuntu1~22.04 [154 kB]
+Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgcc-11-dev amd64 11.4.0-1ubuntu1~22.04 [2517 kB]
+Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11 amd64 11.4.0-1ubuntu1~22.04 [20.1 MB]
+Get:25 http://archive.ubuntu.com/ubuntu jammy/main amd64 gcc amd64 4:11.2.0-1ubuntu1 [5112 B]
+Get:26 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libstdc++-11-dev amd64 11.4.0-1ubuntu1~22.04 [2101 kB]
+Get:27 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 g++-11 amd64 11.4.0-1ubuntu1~22.04 [11.4 MB]
+Get:28 http://archive.ubuntu.com/ubuntu jammy/main amd64 g++ amd64 4:11.2.0-1ubuntu1 [1412 B]
+Get:29 http://archive.ubuntu.com/ubuntu jammy/main amd64 make amd64 4.3-4.1build1 [180 kB]
+Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdpkg-perl all 1.21.1ubuntu2.3 [237 kB]
+Get:31 http://archive.ubuntu.com/ubuntu jammy/main amd64 bzip2 amd64 1.0.8-5build1 [34.8 kB]
+Get:32 http://archive.ubuntu.com/ubuntu jammy/main amd64 lto-disabled-list all 24 [12.5 kB]
+Get:33 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 dpkg-dev all 1.21.1ubuntu2.3 [922 kB]
+Get:34 http://archive.ubuntu.com/ubuntu jammy/main amd64 build-essential amd64 12.9ubuntu3 [4744 B]
+Get:35 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfakeroot amd64 1.28-1ubuntu1 [31.5 kB]
+Get:36 http://archive.ubuntu.com/ubuntu jammy/main amd64 fakeroot amd64 1.28-1ubuntu1 [60.4 kB]
+Get:37 http://archive.ubuntu.com/ubuntu jammy/main amd64 fonts-dejavu-core all 2.37-2build1 [1041 kB]
+Get:38 http://archive.ubuntu.com/ubuntu jammy/main amd64 fontconfig-config all 2.13.1-4.2ubuntu5 [29.1 kB]
+Get:39 http://archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-diff-perl all 1.201-1 [41.8 kB]
+Get:40 http://archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-diff-xs-perl amd64 0.04-6build3 [11.9 kB]
+Get:41 http://archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-merge-perl all 0.08-3 [12.0 kB]
+Get:42 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libfreetype6 amd64 2.11.1+dfsg-1ubuntu0.2 [389 kB]
+Get:43 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfontconfig1 amd64 2.13.1-4.2ubuntu5 [131 kB]
+Get:44 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg-turbo8 amd64 2.1.2-0ubuntu1 [134 kB]
+Get:45 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg8 amd64 8c-2ubuntu10 [2264 B]
+Get:46 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdeflate0 amd64 1.10-2 [70.9 kB]
+Get:47 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libjbig0 amd64 2.1-3.1ubuntu0.22.04.1 [29.2 kB]
+Get:48 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libwebp7 amd64 1.2.2-2ubuntu0.22.04.2 [206 kB]
+Get:49 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtiff5 amd64 4.3.0-6ubuntu0.8 [185 kB]
+Get:50 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxpm4 amd64 1:3.5.12-1ubuntu0.22.04.2 [36.7 kB]
+Get:51 http://archive.ubuntu.com/ubuntu jammy/main amd64 libgd3 amd64 2.3.0-2ubuntu2 [129 kB]
+Get:52 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-devtools amd64 2.35-0ubuntu3.7 [29.0 kB]
+Get:53 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfile-fcntllock-perl amd64 0.22-3build7 [33.9 kB]
+Get:54 http://archive.ubuntu.com/ubuntu jammy/main amd64 manpages-dev all 5.10-1ubuntu1 [2309 kB]
+Fetched 67.4 MB in 11s (6357 kB/s)
+Extracting templates from packages: 100%
+Preconfiguring packages ...
+(Reading database ... 24229 files and directories currently installed.)
+Preparing to unpack .../libc6_2.35-0ubuntu3.7_amd64.deb ...
+Unpacking libc6:amd64 (2.35-0ubuntu3.7) over (2.35-0ubuntu3.4) ...
+Setting up libc6:amd64 (2.35-0ubuntu3.7) ...
+Selecting previously unselected package libc-dev-bin.
+(Reading database ... 24229 files and directories currently installed.)
+Preparing to unpack .../00-libc-dev-bin_2.35-0ubuntu3.7_amd64.deb ...
+Unpacking libc-dev-bin (2.35-0ubuntu3.7) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../01-linux-libc-dev_5.15.0-107.117_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.15.0-107.117) ...
+Selecting previously unselected package libcrypt-dev:amd64.
+Preparing to unpack .../02-libcrypt-dev_1%3a4.4.27-1_amd64.deb ...
+Unpacking libcrypt-dev:amd64 (1:4.4.27-1) ...
+Selecting previously unselected package rpcsvc-proto.
+Preparing to unpack .../03-rpcsvc-proto_1.4.2-0ubuntu6_amd64.deb ...
+Unpacking rpcsvc-proto (1.4.2-0ubuntu6) ...
+Selecting previously unselected package libtirpc-dev:amd64.
+Preparing to unpack .../04-libtirpc-dev_1.3.2-2ubuntu0.1_amd64.deb ...
+Unpacking libtirpc-dev:amd64 (1.3.2-2ubuntu0.1) ...
+Selecting previously unselected package libnsl-dev:amd64.
+Preparing to unpack .../05-libnsl-dev_1.3.0-2build2_amd64.deb ...
+Unpacking libnsl-dev:amd64 (1.3.0-2build2) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../06-libc6-dev_2.35-0ubuntu3.7_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.35-0ubuntu3.7) ...
+Selecting previously unselected package gcc-11-base:amd64.
+Preparing to unpack .../07-gcc-11-base_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking gcc-11-base:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libisl23:amd64.
+Preparing to unpack .../08-libisl23_0.24-2build1_amd64.deb ...
+Unpacking libisl23:amd64 (0.24-2build1) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../09-libmpc3_1.2.1-2build1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.2.1-2build1) ...
+Selecting previously unselected package cpp-11.
+Preparing to unpack .../10-cpp-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking cpp-11 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../11-cpp_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking cpp (4:11.2.0-1ubuntu1) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../12-libcc1-0_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libcc1-0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../13-libgomp1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libgomp1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../14-libitm1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libitm1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../15-libatomic1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libatomic1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libasan6:amd64.
+Preparing to unpack .../16-libasan6_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libasan6:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../17-liblsan0_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking liblsan0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../18-libtsan0_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libtsan0:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libubsan1:amd64.
+Preparing to unpack .../19-libubsan1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libubsan1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../20-libquadmath0_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libquadmath0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libgcc-11-dev:amd64.
+Preparing to unpack .../21-libgcc-11-dev_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libgcc-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package gcc-11.
+Preparing to unpack .../22-gcc-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking gcc-11 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../23-gcc_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking gcc (4:11.2.0-1ubuntu1) ...
+Selecting previously unselected package libstdc++-11-dev:amd64.
+Preparing to unpack .../24-libstdc++-11-dev_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libstdc++-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package g++-11.
+Preparing to unpack .../25-g++-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking g++-11 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../26-g++_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking g++ (4:11.2.0-1ubuntu1) ...
+Selecting previously unselected package make.
+Preparing to unpack .../27-make_4.3-4.1build1_amd64.deb ...
+Unpacking make (4.3-4.1build1) ...
+Selecting previously unselected package libdpkg-perl.
+Preparing to unpack .../28-libdpkg-perl_1.21.1ubuntu2.3_all.deb ...
+Unpacking libdpkg-perl (1.21.1ubuntu2.3) ...
+Selecting previously unselected package bzip2.
+Preparing to unpack .../29-bzip2_1.0.8-5build1_amd64.deb ...
+Unpacking bzip2 (1.0.8-5build1) ...
+Selecting previously unselected package lto-disabled-list.
+Preparing to unpack .../30-lto-disabled-list_24_all.deb ...
+Unpacking lto-disabled-list (24) ...
+Selecting previously unselected package dpkg-dev.
+Preparing to unpack .../31-dpkg-dev_1.21.1ubuntu2.3_all.deb ...
+Unpacking dpkg-dev (1.21.1ubuntu2.3) ...
+Selecting previously unselected package build-essential.
+Preparing to unpack .../32-build-essential_12.9ubuntu3_amd64.deb ...
+Unpacking build-essential (12.9ubuntu3) ...
+Selecting previously unselected package libfakeroot:amd64.
+Preparing to unpack .../33-libfakeroot_1.28-1ubuntu1_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.28-1ubuntu1) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../34-fakeroot_1.28-1ubuntu1_amd64.deb ...
+Unpacking fakeroot (1.28-1ubuntu1) ...
+Selecting previously unselected package fonts-dejavu-core.
+Preparing to unpack .../35-fonts-dejavu-core_2.37-2build1_all.deb ...
+Unpacking fonts-dejavu-core (2.37-2build1) ...
+Selecting previously unselected package fontconfig-config.
+Preparing to unpack .../36-fontconfig-config_2.13.1-4.2ubuntu5_all.deb ...
+Unpacking fontconfig-config (2.13.1-4.2ubuntu5) ...
+Selecting previously unselected package libalgorithm-diff-perl.
+Preparing to unpack .../37-libalgorithm-diff-perl_1.201-1_all.deb ...
+Unpacking libalgorithm-diff-perl (1.201-1) ...
+Selecting previously unselected package libalgorithm-diff-xs-perl.
+Preparing to unpack .../38-libalgorithm-diff-xs-perl_0.04-6build3_amd64.deb ...
+Unpacking libalgorithm-diff-xs-perl (0.04-6build3) ...
+Selecting previously unselected package libalgorithm-merge-perl.
+Preparing to unpack .../39-libalgorithm-merge-perl_0.08-3_all.deb ...
+Unpacking libalgorithm-merge-perl (0.08-3) ...
+Selecting previously unselected package libfreetype6:amd64.
+Preparing to unpack .../40-libfreetype6_2.11.1+dfsg-1ubuntu0.2_amd64.deb ...
+Unpacking libfreetype6:amd64 (2.11.1+dfsg-1ubuntu0.2) ...
+Selecting previously unselected package libfontconfig1:amd64.
+Preparing to unpack .../41-libfontconfig1_2.13.1-4.2ubuntu5_amd64.deb ...
+Unpacking libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../42-libjpeg-turbo8_2.1.2-0ubuntu1_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../43-libjpeg8_8c-2ubuntu10_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu10) ...
+Selecting previously unselected package libdeflate0:amd64.
+Preparing to unpack .../44-libdeflate0_1.10-2_amd64.deb ...
+Unpacking libdeflate0:amd64 (1.10-2) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../45-libjbig0_2.1-3.1ubuntu0.22.04.1_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
+Selecting previously unselected package libwebp7:amd64.
+Preparing to unpack .../46-libwebp7_1.2.2-2ubuntu0.22.04.2_amd64.deb ...
+Unpacking libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../47-libtiff5_4.3.0-6ubuntu0.8_amd64.deb ...
+Unpacking libtiff5:amd64 (4.3.0-6ubuntu0.8) ...
+Selecting previously unselected package libxpm4:amd64.
+Preparing to unpack .../48-libxpm4_1%3a3.5.12-1ubuntu0.22.04.2_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
+Selecting previously unselected package libgd3:amd64.
+Preparing to unpack .../49-libgd3_2.3.0-2ubuntu2_amd64.deb ...
+Unpacking libgd3:amd64 (2.3.0-2ubuntu2) ...
+Selecting previously unselected package libc-devtools.
+Preparing to unpack .../50-libc-devtools_2.35-0ubuntu3.7_amd64.deb ...
+Unpacking libc-devtools (2.35-0ubuntu3.7) ...
+Selecting previously unselected package libfile-fcntllock-perl.
+Preparing to unpack .../51-libfile-fcntllock-perl_0.22-3build7_amd64.deb ...
+Unpacking libfile-fcntllock-perl (0.22-3build7) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../52-manpages-dev_5.10-1ubuntu1_all.deb ...
+Unpacking manpages-dev (5.10-1ubuntu1) ...
+Setting up gcc-11-base:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up manpages-dev (5.10-1ubuntu1) ...
+Setting up lto-disabled-list (24) ...
+Setting up libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
+Setting up libfile-fcntllock-perl (0.22-3build7) ...
+Setting up libalgorithm-diff-perl (1.201-1) ...
+Setting up libdeflate0:amd64 (1.10-2) ...
+Setting up linux-libc-dev:amd64 (5.15.0-107.117) ...
+Setting up libgomp1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up bzip2 (1.0.8-5build1) ...
+Setting up libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
+Setting up libfakeroot:amd64 (1.28-1ubuntu1) ...
+Setting up libasan6:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up fakeroot (1.28-1ubuntu1) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+Setting up libtirpc-dev:amd64 (1.3.2-2ubuntu0.1) ...
+Setting up rpcsvc-proto (1.4.2-0ubuntu6) ...
+Setting up libfreetype6:amd64 (2.11.1+dfsg-1ubuntu0.2) ...
+Setting up make (4.3-4.1build1) ...
+Setting up libquadmath0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libmpc3:amd64 (1.2.1-2build1) ...
+Setting up libatomic1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up fonts-dejavu-core (2.37-2build1) ...
+Setting up libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+Setting up libdpkg-perl (1.21.1ubuntu2.3) ...
+Setting up libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...
+Setting up libubsan1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libnsl-dev:amd64 (1.3.0-2build2) ...
+Setting up libcrypt-dev:amd64 (1:4.4.27-1) ...
+Setting up libisl23:amd64 (0.24-2build1) ...
+Setting up libc-dev-bin (2.35-0ubuntu3.7) ...
+Setting up libalgorithm-diff-xs-perl (0.04-6build3) ...
+Setting up libcc1-0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up liblsan0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libitm1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libalgorithm-merge-perl (0.08-3) ...
+Setting up libtsan0:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu10) ...
+Setting up cpp-11 (11.4.0-1ubuntu1~22.04) ...
+Setting up fontconfig-config (2.13.1-4.2ubuntu5) ...
+Setting up dpkg-dev (1.21.1ubuntu2.3) ...
+Setting up libgcc-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up gcc-11 (11.4.0-1ubuntu1~22.04) ...
+Setting up cpp (4:11.2.0-1ubuntu1) ...
+Setting up libc6-dev:amd64 (2.35-0ubuntu3.7) ...
+Setting up libtiff5:amd64 (4.3.0-6ubuntu0.8) ...
+Setting up libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+Setting up gcc (4:11.2.0-1ubuntu1) ...
+Setting up libgd3:amd64 (2.3.0-2ubuntu2) ...
+Setting up libstdc++-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up libc-devtools (2.35-0ubuntu3.7) ...
+Setting up g++-11 (11.4.0-1ubuntu1~22.04) ...
+Setting up g++ (4:11.2.0-1ubuntu1) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Setting up build-essential (12.9ubuntu3) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.4) ...
+ubuntu@ibrah:~/go-ipfs$ sudo make install
+cat install.sh >install
+chmod a+x install
+ubuntu@ibrah:~/go-ipfs$ chmod a+x install
+chmod: changing permissions of 'install': Operation not permitted
+ubuntu@ibrah:~/go-ipfs$ sudo chmod a+x install
+ubuntu@ibrah:~/go-ipfs$ sudo make install
+make: 'install' is up to date.
+ubuntu@ibrah:~/go-ipfs$ make install
+make: 'install' is up to date.
+ubuntu@ibrah:~/go-ipfs$ sudo make install
+make: 'install' is up to date.
+ubuntu@ibrah:~/go-ipfs$ make: `install' is up to date.
+> ^C
+ubuntu@ibrah:~/go-ipfs$
+ubuntu@ibrah:~/go-ipfs$
+ubuntu@ibrah:~/go-ipfs$
+ubuntu@ibrah:~/go-ipfs$ make clean
+make: *** No rule to make target 'clean'.  Stop.
+ubuntu@ibrah:~/go-ipfs$ sudo make install
+make: 'install' is up to date.
+ubuntu@ibrah:~/go-ipfs$ make clean
+make: *** No rule to make target 'clean'.  Stop.
+ubuntu@ibrah:~/go-ipfs$ sudo make install
+make: 'install' is up to date.
+ubuntu@ibrah:~/go-ipfs$ sudo make install.sh
+make: Nothing to be done for 'install.sh'.
+ubuntu@ibrah:~/go-ipfs$ sudo ./install
+Moved ipfs to /usr/local/bin
+ubuntu@ibrah:~/go-ipfs$ ipfs init
+initializing IPFS node at /home/ubuntu/.ipfs
+generating 2048-bit RSA keypair...done
+peer identity: QmbGJc8cRKpRqYxfjHy3bf6hR94YJANC5kmxRAcWijYxy2
+to get started, enter:
+
+        ipfs cat /ipfs/QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv/readme
+
+ubuntu@ibrah:~/go-ipfs$ ipfs daemon
+Initializing daemon...
+Adjusting current ulimit to 2048...
+Successfully raised file descriptor limit to 2048.
+Swarm listening on /ip4/127.0.0.1/tcp/4001
+Swarm listening on /ip4/172.30.159.10/tcp/4001
+Swarm listening on /ip6/::1/tcp/4001
+Swarm listening on /p2p-circuit/ipfs/QmbGJc8cRKpRqYxfjHy3bf6hR94YJANC5kmxRAcWijYxy2
+Swarm announcing /ip4/127.0.0.1/tcp/4001
+Swarm announcing /ip4/172.30.159.10/tcp/4001
+Swarm announcing /ip6/::1/tcp/4001
+API server listening on /ip4/127.0.0.1/tcp/5001
+Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+Daemon is ready
+ipfs swarm peers
+^C
+Received interrupt signal, shutting down...
+(Hit ctrl-c again to force-shutdown the daemon.)
+ubuntu@ibrah:~/go-ipfs$ ipfs daemon
+Initializing daemon...
+Adjusting current ulimit to 2048...
+Successfully raised file descriptor limit to 2048.
+Swarm listening on /ip4/127.0.0.1/tcp/4001
+Swarm listening on /ip4/172.30.159.10/tcp/4001
+Swarm listening on /ip6/::1/tcp/4001
+Swarm listening on /p2p-circuit/ipfs/QmbGJc8cRKpRqYxfjHy3bf6hR94YJANC5kmxRAcWijYxy2
+Swarm announcing /ip4/127.0.0.1/tcp/4001
+Swarm announcing /ip4/172.30.159.10/tcp/4001
+Swarm announcing /ip6/::1/tcp/4001
+API server listening on /ip4/127.0.0.1/tcp/5001
+Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+Daemon is ready
+16:37:59.283 ERROR core/serve: ipfs resolve -r /ipfs/QmPhnvn747LqwPYMJmQVorMaGbMSgA7mRRoyyZYz3DoZRQ/: Failed to get block for QmPhnvn747LqwPYMJmQVorMaGbMSgA7mRRoyyZYz3DoZRQ: context canceled gateway_handler.go:621
+^C
+Received interrupt signal, shutting down...
+(Hit ctrl-c again to force-shutdown the daemon.)
+ubuntu@ibrah:~/go-ipfs$ ipfs daemon
+Initializing daemon...
+Adjusting current ulimit to 2048...
+Successfully raised file descriptor limit to 2048.
+Swarm listening on /ip4/127.0.0.1/tcp/4001
+Swarm listening on /ip4/172.30.159.10/tcp/4001
+Swarm listening on /ip6/::1/tcp/4001
+Swarm listening on /p2p-circuit/ipfs/QmbGJc8cRKpRqYxfjHy3bf6hR94YJANC5kmxRAcWijYxy2
+Swarm announcing /ip4/127.0.0.1/tcp/4001
+Swarm announcing /ip4/172.30.159.10/tcp/4001
+Swarm announcing /ip6/::1/tcp/4001
+API server listening on /ip4/127.0.0.1/tcp/5001
+Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+Daemon is ready
+
+
+
+
+PS C:\Users\ibrah> ubuntu.exe
+ubuntu@ibrah:~$ ls
+fabric-samples  go  go-ipfs  go-ipfs_v0.4.13_linux-arm.tar.gz
+ubuntu@ibrah:~$ cd go-ipfs/
+ubuntu@ibrah:~/go-ipfs$ ipfs swarm peers
+ubuntu@ibrah:~/go-ipfs$ ipfs add ./pathFichier
+Error: lstat pathFichier: no such file or directory
+
+USAGE
+  ipfs add <path>... - Add a file or directory to ipfs.
+
+  ipfs add [--recursive | -r] [--quiet | -q] [--quieter | -Q] [--silent] [--progress | -p] [--trickle | -t] [--only-hash | -n] [--wrap-with-directory | -w] [--hidden | -H] [--chunker=<chunker> | -s] [--pin=false] [--raw-leaves] [--nocopy] [--fscache] [--cid-version=<cid-version>] [--hash=<hash>] [--] <path>...
+
+  Adds contents of <path> to ipfs. Use -r to add directories (recursively).
+
+Use 'ipfs add --help' for more information about this command.
+
+ubuntu@ibrah:~/go-ipfs$ ipfs swarm peers
+ubuntu@ibrah:~/go-ipfs$ ipfs add ./chemin_vers_votre_fichier
+Error: lstat chemin_vers_votre_fichier: no such file or directory
+
+USAGE
+  ipfs add <path>... - Add a file or directory to ipfs.
+
+  ipfs add [--recursive | -r] [--quiet | -q] [--quieter | -Q] [--silent] [--progress | -p] [--trickle | -t] [--only-hash | -n] [--wrap-with-directory | -w] [--hidden | -H] [--chunker=<chunker> | -s] [--pin=false] [--raw-leaves] [--nocopy] [--fscache] [--cid-version=<cid-version>] [--hash=<hash>] [--] <path>...
+
+  Adds contents of <path> to ipfs. Use -r to add directories (recursively).
+
+Use 'ipfs add --help' for more information about this command.
+
+ubuntu@ibrah:~/go-ipfs$ ls
+LICENSE  README.md  build-log  install  install.sh
+ubuntu@ibrah:~/go-ipfs$ ls
+LICENSE  README.md  build-log  install  install.sh
+ubuntu@ibrah:~/go-ipfs$ touch fichier
+ubuntu@ibrah:~/go-ipfs$ ipfs add ./fichier
+added QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH fichier
+ubuntu@ibrah:~/go-ipfs$ touch hash
+ubuntu@ibrah:~/go-ipfs$ ipfs dht findprovs ./
+LICENSE     README.md   build-log   fichier     hash        install     install.sh
+ubuntu@ibrah:~/go-ipfs$ ipfs dht findprovs ./hash
+^Xx^C
+Error: request canceled
+ubuntu@ibrah:~/go-ipfs$ ipfs dht findprovs QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+QmbGJc8cRKpRqYxfjHy3bf6hR94YJANC5kmxRAcWijYxy2
+ubuntu@ibrah:~/go-ipfs$ ipfs cat QmbGJc8cRKpRqYxfjHy3bf6hR94YJANC5kmxRAcWijYxy2
